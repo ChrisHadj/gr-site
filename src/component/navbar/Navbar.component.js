@@ -3,13 +3,14 @@ import Navbar from "react-bootstrap/Navbar";
 import { Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
+import Logo from "../../images/Navbar/flag.png";
 
 class Navbarv extends React.Component {
   render() {
     return (
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">
-          <img src="/image/Navbar/flag.png" alt="flag-rhodes" />
+          <img src={Logo} alt="flag-rhodes" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
