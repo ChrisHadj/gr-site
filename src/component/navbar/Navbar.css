@@ -20,3 +20,7 @@
     color: rgba(0,0,0,.5);
     justify-content: center;
 }
+
+.covid-button {
+    padding-left: 15px;
+}

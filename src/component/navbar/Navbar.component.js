@@ -4,6 +4,7 @@ import { Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import Logo from "../../images/Navbar/flag.png";
+import Button from "../button/Button.component";
 
 class Navbarv extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class Navbarv extends React.Component {
             <Nav.Link href="#link">Visites</Nav.Link>
             <Nav.Link href="#link">Restaurants</Nav.Link>
             <Nav.Link href="#link">Night life</Nav.Link>
+            <Button className="covid-button" />
           </Nav>
         </Navbar.Collapse>
       </Navbar>
