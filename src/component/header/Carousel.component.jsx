@@ -1,6 +1,10 @@
 import React from "react";
 import "./carouselStyle.css";
 import Carousel from 'react-bootstrap/Carousel'
+import Photo1 from '../../images/carousel/carousel-1.jpg'
+import Photo2 from '../../images/carousel/carousel-2.jpg'
+import Photo3 from '../../images/carousel/carousel-3.jpg'
+import Photo4 from '../../images/carousel/carousel-4.jpg'
 
 class Carouselv extends React.Component {
   render() {
@@ -9,7 +13,7 @@ class Carouselv extends React.Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="image/carousel/carousel-1.jpg"
+            src={Photo1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -20,7 +24,7 @@ class Carouselv extends React.Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/image/carousel/carousel-2.jpg"
+            src={Photo2}
             alt="Second slide"
           />
 
@@ -32,7 +36,7 @@ class Carouselv extends React.Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/image/carousel/carousel-3.jpg"
+            src={Photo3}
             alt="Third slide"
           />
 
@@ -46,7 +50,7 @@ class Carouselv extends React.Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/image/carousel/carousel-3.jpg"
+            src={Photo4}
             alt="Third slide"
           />
 
