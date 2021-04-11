@@ -13,6 +13,6 @@ class Pages extends React.Component {
       </div>
     );
   }
-}
+};
 
 export default Pages;

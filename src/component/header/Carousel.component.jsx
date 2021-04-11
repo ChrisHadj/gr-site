@@ -9,7 +9,7 @@ class Carouselv extends React.Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="/image/carousel/carousel-1.jpg"
+            src="image/carousel/carousel-1.jpg"
             alt="First slide"
           />
           <Carousel.Caption>
