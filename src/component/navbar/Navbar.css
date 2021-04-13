@@ -22,5 +22,11 @@
 }
 
 .covid-button {
-    padding-left: 15px;
+    padding-left: 55%!important;
+}
+
+@media screen and (max-width: 991px) {
+    .covid-button {
+        display: none!important;
+    }
 }

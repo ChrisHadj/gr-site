@@ -15,12 +15,14 @@ class Navbarv extends React.Component {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="navbar-item mr-auto">
             <Nav.Link href="#home">Images</Nav.Link>
             <Nav.Link href="#link">Visites</Nav.Link>
             <Nav.Link href="#link">Restaurants</Nav.Link>
             <Nav.Link href="#link">Night life</Nav.Link>
-            <Button className="covid-button" />
+          </Nav>
+          <Nav className="mr-auto covid-button">
+            <Button href="covid" className="covid-button" />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

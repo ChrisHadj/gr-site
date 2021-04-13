@@ -1,17 +1,24 @@
 import React from "react";
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Covid from "./articles/covid/Covid";
+import Accordion from "./articles/covid/accordion.text";
+import AccordionDrop from "./articles/covid/Accordion.drop";
 
-import './Content.css'
+import "./Content.css";
 
 class Content extends React.Component {
   render() {
     return (
-        <Container className="container">
-        <Row>
-          <Col>1 of 2</Col>
-          <Col>2 of 2</Col>
+      <Container className="container">
+        <Row className="row">
+          <Col>
+            <Accordion />
+          </Col>
+          <Col className="col-style">
+            <AccordionDrop />
+          </Col>
         </Row>
       </Container>
     );

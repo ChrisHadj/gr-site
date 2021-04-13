@@ -1,55 +1,11 @@
 import React from "react";
 import "./covid.style.css";
 
-const Covid = () => {
-  return (
-    <div className="container">
-      <h2>Coronavirus COVID-19</h2>
-      <ul className="title-list">
-        <li>
-          Actuellement, vous ne pouvez vous rendre à l'étranger que pour une
-          raison essentielle. Plus d'informations sur les voyages essentiels sur
-          http://www.info-coronavirus.be/fr/voyages
-        </li>
-        <li>
-          Si vous vous déplacez à l'étranger pour un motif essentiel, nous vous
-          conseillons de prendre en compte les avis suivants.
-        </li>
-      </ul>
+export const Data = [
+  {
+    titleAccordion: <p className="text-underline">Entrée en Grèce</p>,
+    answer: (
       <div>
-        <h4>
-          INFO : le test Covid est obligatoire avant le départ. Plus
-          d'informations ci-dessous.
-        </h4>
-        <p className="bold-text">
-          Il est possible de voyager en Grèce en respectant les conditions
-          suivantes:
-        </p>
-        <p>
-          Depuis le 24 octobre, le port du masque est imposé dans tous les lieux
-          publics, tant en extérieur qu'à l'intérieur.
-        </p>
-        <p>
-          Un couvre-feu a également été instauré dans tout le pays (21h00-5h00).
-          En Attique, le couvre-feu a été allongé le week-end (18h00-5h00). Les
-          mesures spécifiques varient en fonction de la{" "}
-          <a href="https://covid19.gov.gr/covid-map">
-            classification épidémiologique
-          </a>{" "}
-          régionale.
-        </p>
-        <p>
-          Tout le pays est officiellement en confinement. Les déplacements au
-          sein des provinces doivent répondre à une des{" "}
-          <a href="https://forma.gov.gr/en/">6 raisons impératives</a> définies
-          par les autorités helléniques.
-        </p>
-        <p>
-          Les voyageurs sont également invités à suivre la situation dans les
-          médias locaux, à suivre les consignes et à respecter toutes les
-          mesures de prévention imposées par les autorités locales.
-        </p>
-        <p className="text-underline">Entrée en Grèce</p>
         <p>
           Le voyageur est prié de remplir le formulaire en ligne (PLF) sur
           <a href="http://travel.gov.gr"> http://travel.gov.gr</a> (peu importe
@@ -119,7 +75,13 @@ const Covid = () => {
             Depuis le 9 novembre 2020, les arrivées par la mer sont interdites.
           </p>
         </ul>
-        <p className="text-underline">Déplacements en Grèce</p>
+      </div>
+    ),
+  },
+  {
+    titleAccordion: <p className="text-underline">Déplacements en Grèce</p>,
+    answer: (
+      <div>
         <p className="text-list">
           Tous les déplacements en Grèce entre régions sont interdits sauf pour:
         </p>
@@ -143,7 +105,13 @@ const Covid = () => {
           voir la page officielle: (
           <a href="https://forma.gov.gr/en/">https://forma.gov.gr/en/</a>).
         </p>
-        <p className="text-underline">Sortie du territoire grec</p>
+      </div>
+    ),
+  },
+  {
+    titleAccordion: <p className="text-underline">Sortie du territoire grec</p>,
+    answer: (
+      <div>
         <p>
           Pour la sortie du territoire grec, les ressortissants grecs ainsi que
           les résidents permanents doivent remplir un formulaire PLF qui se
@@ -174,7 +142,13 @@ const Covid = () => {
           concerné (ambassade, consulat, …) pour connaître les conditions de
           voyage vers ce pays.
         </p>
-        <p className="text-underline">Compétence</p>
+      </div>
+    ),
+  },
+  {
+    titleAccordion: <p className="text-underline">Compétence</p>,
+    answer: (
+      <div>
         <p>
           Il est important de signaler que seules les autorités grecques et
           leurs ambassades et consulats à l’étranger sont compétents pour donner
@@ -182,19 +156,29 @@ const Covid = () => {
           territoire grec. Les renseignements repris ici sont donnés à titre
           purement informatif. Vous pouvez aussi consulter le site
           <a href="http://travel.gov.gr"> http://travel.gov.gr</a>, le site du
-          <span className="a-underline"> Ministère grec des Affaires étrangères</span> qui reprend des liens utiles,
-          et le site web du <span className="a-underline">Service National de Santé Publique</span> (EODY).
+          <span className="a-underline">
+            {" "}
+            Ministère grec des Affaires étrangères
+          </span>{" "}
+          qui reprend des liens utiles, et le site web du{" "}
+          <span className="a-underline">
+            Service National de Santé Publique
+          </span>{" "}
+          (EODY).
         </p>
         <p>
           Les personnes qui rencontreraient des problèmes techniques lors de
-          l’enregistrement en ligne sur le site <a href="http://travel.gov.gr">http://travel.gov.gr</a> (pas de QR code reçu, …) ou qui auraient des questions sur
-          la façon de remplir ce formulaire ou sur les modalités de réalisation
-          du test PCR doivent contacter les autorités grecques compétentes
-          mentionnées ci-dessus et/ou l’Ambassade de Grèce à Bruxelles (Tel. :
-          00 32 2 545 55 00-1 / Numéro d’urgence : 00 32 478 54 61 01 / Courriel
-          : <a href="mailto:gremb.bru@mfa.gr">gremb.bru@mfa.gr</a>) ainsi que le secrétariat
-          général de la Protection civile grecque (Tel. : 00 30 210 33 59 002-3
-          / Courriel: <a href="mailto:info@gscp.gr">info@gscp.gr</a>).
+          l’enregistrement en ligne sur le site{" "}
+          <a href="http://travel.gov.gr">http://travel.gov.gr</a> (pas de QR
+          code reçu, …) ou qui auraient des questions sur la façon de remplir ce
+          formulaire ou sur les modalités de réalisation du test PCR doivent
+          contacter les autorités grecques compétentes mentionnées ci-dessus
+          et/ou l’Ambassade de Grèce à Bruxelles (Tel. : 00 32 2 545 55 00-1 /
+          Numéro d’urgence : 00 32 478 54 61 01 / Courriel :{" "}
+          <a href="mailto:gremb.bru@mfa.gr">gremb.bru@mfa.gr</a>) ainsi que le
+          secrétariat général de la Protection civile grecque (Tel. : 00 30 210
+          33 59 002-3 / Courriel: <a href="mailto:info@gscp.gr">info@gscp.gr</a>
+          ).
         </p>
         <p>
           Si vous vous trouvez en Grèce, vous pouvez appeler le numéro 1520.
@@ -205,8 +189,73 @@ const Covid = () => {
           1135 - uniquement joignable depuis la Grèce) pour assistance.
         </p>
       </div>
-    </div>
-  );
-};
+    ),
+  },
+];
 
-export default Covid;
+export const DataTitle = [
+  {
+    title: <h2 className="container">Coronavirus COVID-19</h2>,
+  },
+  {
+    titlelione: (
+      <ul className="title-list">
+        <li>
+          Actuellement, vous ne pouvez vous rendre à l'étranger que pour une
+          raison essentielle. Plus d'informations sur les voyages essentiels sur
+          <a href="http://www.info-coronavirus.be/fr/voyages">
+            {" "}
+            http://www.info-coronavirus.be/fr/voyages
+          </a>
+          .
+        </li>
+        <li>
+          Si vous vous déplacez à l'étranger pour un motif essentiel, nous vous
+          conseillons de prendre en compte les avis suivants.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    titleinfo: (
+      <h4>
+        INFO : le test Covid est obligatoire avant le départ. Plus
+        d'informations ci-dessous.
+      </h4>
+    ),
+  },
+  {
+    titleinfoone: (
+      <div>
+        <p className="bold-text">
+          Il est possible de voyager en Grèce en respectant les conditions
+          suivantes:
+        </p>
+        <p>
+          Depuis le 24 octobre, le port du masque est imposé dans tous les lieux
+          publics, tant en extérieur qu'à l'intérieur.
+        </p>
+        <p>
+          Un couvre-feu a également été instauré dans tout le pays (21h00-5h00).
+          En Attique, le couvre-feu a été allongé le week-end (18h00-5h00). Les
+          mesures spécifiques varient en fonction de la{" "}
+          <a href="https://covid19.gov.gr/covid-map">
+            classification épidémiologique
+          </a>{" "}
+          régionale.
+        </p>
+        <p>
+          Tout le pays est officiellement en confinement. Les déplacements au
+          sein des provinces doivent répondre à une des{" "}
+          <a href="https://forma.gov.gr/en/">6 raisons impératives</a> définies
+          par les autorités helléniques.
+        </p>
+        <p>
+          Les voyageurs sont également invités à suivre la situation dans les
+          médias locaux, à suivre les consignes et à respecter toutes les
+          mesures de prévention imposées par les autorités locales.
+        </p>
+      </div>
+    ),
+  },
+];

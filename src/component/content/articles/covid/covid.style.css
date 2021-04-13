@@ -1,0 +1,45 @@
+.container {
+    margin-top: 15px;
+}
+
+h2 {
+    color: red;
+}
+
+.title-list {
+    color: red;
+    font-weight: 500;
+}
+
+h4 {
+    color: blue;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.text-underline {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-top: 15px;
+}
+
+.text-list {
+    text-decoration: underline;
+}
+
+.text-direction-right {
+    margin-left: 15px;
+}
+
+.a-underline {
+    text-decoration: underline;
+}
+
+.list-number {
+    list-style-type:decimal;
+}
