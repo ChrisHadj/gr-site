@@ -1,8 +1,11 @@
 import React from 'react';
+import ImagePage from '../Image-page/PageImage'
 
 const SecondPage = () => {
     return(
-        <div>hello from second page</div>
+        <div>
+            <ImagePage />
+        </div>
     )
 }
 

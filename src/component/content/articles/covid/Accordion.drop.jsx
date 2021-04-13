@@ -1,8 +1,10 @@
-import React, { useState } from "react";
-import { Data, DataTitle } from "./Accordion.data";
+import React, { useState, useEffect } from "react";
+import { Data } from "./Accordion.data";
 import styled from "styled-components/macro";
 import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from "react-icons/fi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
@@ -12,6 +14,13 @@ const Wrap = styled.div``;
 const Dropdown = styled.div``;
 
 const AccordionDrop = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    })
+  }, [])
+
     const [clicked, setClicked] = useState(false);
   
     const toggle = (index) => {
@@ -26,7 +35,7 @@ const AccordionDrop = () => {
     return (
       <IconContext.Provider value={{ color: "#020081", size: "25px" }}>
         <AccordionSection>
-          <Container>
+          <Container data-aos="fade-left">
             {Data.map((item, index) => {
               return (
                 <>

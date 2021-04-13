@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./covid.style.css";
 
 export const Data = [
@@ -8,10 +8,13 @@ export const Data = [
       <div>
         <p>
           Le voyageur est prié de remplir le formulaire en ligne (PLF) sur
-          <a href="http://travel.gov.gr" target="_blank"> http://travel.gov.gr</a> (peu importe
-          le type de transport utilisé) au plus tard 24 heures avant son arrivée
-          et de se présenter à l’embarquement avec l’attestation et le code QR
-          reçus par e-mail.
+          <a href="http://travel.gov.gr" target="_blank">
+            {" "}
+            http://travel.gov.gr
+          </a>{" "}
+          (peu importe le type de transport utilisé) au plus tard 24 heures
+          avant son arrivée et de se présenter à l’embarquement avec
+          l’attestation et le code QR reçus par e-mail.
         </p>
         <p className="bold-text">
           Une amende administrative de 500 euros sera infligée aux personnes
@@ -68,7 +71,10 @@ export const Data = [
             (sous conditions strictes, notamment, un test réalisé dans les 72
             heures avant le passage à la frontière) via les postes frontières
             énumérés sur le site officiel grec du PLF (
-            <a href="https://travel.gov.gr/#/" target="_blank">https://travel.gov.gr/#/</a>).
+            <a href="https://travel.gov.gr/#/" target="_blank">
+              https://travel.gov.gr/#/
+            </a>
+            ).
           </p>
           <p className="text-list">Transport maritime: </p>
           <p className="text-direction-right">
@@ -103,7 +109,10 @@ export const Data = [
         <p>
           En ce qui concerne les petits déplacements quotidiens ET essentiels,
           voir la page officielle: (
-          <a href="https://forma.gov.gr/en/" target="_blank">https://forma.gov.gr/en/</a>).
+          <a href="https://forma.gov.gr/en/" target="_blank">
+            https://forma.gov.gr/en/
+          </a>
+          ).
         </p>
       </div>
     ),
@@ -116,7 +125,10 @@ export const Data = [
           Pour la sortie du territoire grec, les ressortissants grecs ainsi que
           les résidents permanents doivent remplir un formulaire PLF qui se
           trouve sur le site{" "}
-          <a href="http://travel.gov.gr" target="_blank">http://travel.gov.gr</a>.
+          <a href="http://travel.gov.gr" target="_blank">
+            http://travel.gov.gr
+          </a>
+          .
         </p>
         <p>
           Pour les belges de passage (touristes, personnes qui n’ont pas de
@@ -128,7 +140,11 @@ export const Data = [
         <p>
           En Belgique, le SPF Santé publique a mis en ligne un site consacré au
           Coronavirus et aux conditions de voyage:
-          <a href="www.info-coronavirus.be/fr" target="_blank"> www.info-coronavirus.be/fr</a>.
+          <a href="www.info-coronavirus.be/fr" target="_blank">
+            {" "}
+            www.info-coronavirus.be/fr
+          </a>
+          .
           <span className="a-underline">
             Les personnes qui se rendent ou rentrent en Belgique trouveront sur
             ce site toutes les informations utiles concernant les mesures à
@@ -155,7 +171,11 @@ export const Data = [
           des informations officielles concernant les conditions d‘accès au
           territoire grec. Les renseignements repris ici sont donnés à titre
           purement informatif. Vous pouvez aussi consulter le site
-          <a href="http://travel.gov.gr" target="_blank"> http://travel.gov.gr</a>, le site du
+          <a href="http://travel.gov.gr" target="_blank">
+            {" "}
+            http://travel.gov.gr
+          </a>
+          , le site du
           <span className="a-underline">
             {" "}
             Ministère grec des Affaires étrangères
@@ -169,12 +189,14 @@ export const Data = [
         <p>
           Les personnes qui rencontreraient des problèmes techniques lors de
           l’enregistrement en ligne sur le site{" "}
-          <a href="http://travel.gov.gr" target="_blank">http://travel.gov.gr</a> (pas de QR
-          code reçu, …) ou qui auraient des questions sur la façon de remplir ce
-          formulaire ou sur les modalités de réalisation du test PCR doivent
-          contacter les autorités grecques compétentes mentionnées ci-dessus
-          et/ou l’Ambassade de Grèce à Bruxelles (Tel. : 00 32 2 545 55 00-1 /
-          Numéro d’urgence : 00 32 478 54 61 01 / Courriel :{" "}
+          <a href="http://travel.gov.gr" target="_blank">
+            http://travel.gov.gr
+          </a>{" "}
+          (pas de QR code reçu, …) ou qui auraient des questions sur la façon de
+          remplir ce formulaire ou sur les modalités de réalisation du test PCR
+          doivent contacter les autorités grecques compétentes mentionnées
+          ci-dessus et/ou l’Ambassade de Grèce à Bruxelles (Tel. : 00 32 2 545
+          55 00-1 / Numéro d’urgence : 00 32 478 54 61 01 / Courriel :{" "}
           <a href="mailto:gremb.bru@mfa.gr">gremb.bru@mfa.gr</a>) ainsi que le
           secrétariat général de la Protection civile grecque (Tel. : 00 30 210
           33 59 002-3 / Courriel: <a href="mailto:info@gscp.gr">info@gscp.gr</a>
@@ -192,6 +214,7 @@ export const Data = [
     ),
   },
 ];
+
 
 export const DataTitle = [
   {
@@ -247,8 +270,10 @@ export const DataTitle = [
         <p>
           Tout le pays est officiellement en confinement. Les déplacements au
           sein des provinces doivent répondre à une des{" "}
-          <a href="https://forma.gov.gr/en/" target="_blank">6 raisons impératives</a> définies
-          par les autorités helléniques.
+          <a href="https://forma.gov.gr/en/" target="_blank">
+            6 raisons impératives
+          </a>{" "}
+          définies par les autorités helléniques.
         </p>
         <p>
           Les voyageurs sont également invités à suivre la situation dans les

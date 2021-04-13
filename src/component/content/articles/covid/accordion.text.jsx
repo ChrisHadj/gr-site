@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { DataTitle } from "./Accordion.data";
 import styled from "styled-components/macro";
-import { IconContext } from "react-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AccordionSection = styled.div``;
 const Titlecontainer = styled.div``;
@@ -11,6 +12,14 @@ const TitleInfo = styled.div``;
 const TitleInfoOne = styled.div``;
 
 const Accordion = () => {
+  useEffect
+    (() => {
+      AOS.init({
+        duration: 1500,
+      });
+    },
+    []);
+
   const [clicked, setClicked] = useState(false);
 
   const toggle = (index) => {
@@ -21,24 +30,21 @@ const Accordion = () => {
 
     setClicked(index);
   };
-
   return (
-    <IconContext.Provider value={{ color: "#020081", size: "25px" }}>
-      <AccordionSection>
-        {DataTitle.map((item, index) => {
-          return (
-            <>
-              <Titlecontainer id="covid-container">
-                <Title>{item.title}</Title>
-                <TitleUl>{item.titlelione}</TitleUl>
-              </Titlecontainer>
-              <TitleInfo>{item.titleinfo}</TitleInfo>
-              <TitleInfoOne>{item.titleinfoone}</TitleInfoOne>
-            </>
-          );
-        })}
-      </AccordionSection>
-    </IconContext.Provider>
+    <AccordionSection>
+      {DataTitle.map((item, index) => {
+        return (
+          <>
+            <Titlecontainer data-aos="fade-right" id="covid-container">
+              <Title>{item.title}</Title>
+              <TitleUl>{item.titlelione}</TitleUl>
+            </Titlecontainer>
+            <TitleInfo data-aos="fade-left">{item.titleinfo}</TitleInfo>
+            <TitleInfoOne data-aos="fade-right">{item.titleinfoone}</TitleInfoOne>
+          </>
+        );
+      })}
+    </AccordionSection>
   );
 };
 

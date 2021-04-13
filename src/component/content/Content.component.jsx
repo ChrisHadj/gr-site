@@ -5,6 +5,9 @@ import Col from "react-bootstrap/Col";
 import Accordion from "./articles/covid/accordion.text";
 import AccordionDrop from "./articles/covid/Accordion.drop";
 
+
+
+
 import "./Content.css";
 
 class Content extends React.Component {
