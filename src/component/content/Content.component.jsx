@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Covid from "./articles/covid/Covid";
 import Accordion from "./articles/covid/accordion.text";
 import AccordionDrop from "./articles/covid/Accordion.drop";
 
