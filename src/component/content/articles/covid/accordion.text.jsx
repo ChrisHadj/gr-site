@@ -1,19 +1,14 @@
 import React, { useState } from "react";
-import { Data, DataTitle } from "./Accordion.data";
+import { DataTitle } from "./Accordion.data";
 import styled from "styled-components/macro";
 import { IconContext } from "react-icons";
-import { FiPlus, FiMinus } from "react-icons/fi";
 
 const AccordionSection = styled.div``;
-const Container = styled.div``;
-const Wrap = styled.div``;
-const Dropdown = styled.div``;
 const Titlecontainer = styled.div``;
 const Title = styled.div``;
 const TitleUl = styled.div``;
 const TitleInfo = styled.div``;
 const TitleInfoOne = styled.div``;
-const TitleHOne = styled.h1``;
 
 const Accordion = () => {
   const [clicked, setClicked] = useState(false);
@@ -33,7 +28,7 @@ const Accordion = () => {
         {DataTitle.map((item, index) => {
           return (
             <>
-              <Titlecontainer>
+              <Titlecontainer id="covid-container">
                 <Title>{item.title}</Title>
                 <TitleUl>{item.titlelione}</TitleUl>
               </Titlecontainer>

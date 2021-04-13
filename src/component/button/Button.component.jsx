@@ -5,7 +5,7 @@ import "./Button.css";
 const ButtonDanger = () => {
   return (
     <>
-      <Button className="button-covid" variant="danger">Covid19</Button>
+      <Button className="button-covid" variant="danger" href="#covid-container">Covid19</Button>
     </>
   );
 };

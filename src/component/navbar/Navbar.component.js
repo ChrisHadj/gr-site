@@ -9,16 +9,16 @@ import Button from "../button/Button.component";
 class Navbarv extends React.Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
+      <Navbar id="home" bg="light" expand="lg">
         <Navbar.Brand href="#home">
           <img src={Logo} alt="flag-rhodes" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navbar-item mr-auto">
-            <Nav.Link href="#home">Images</Nav.Link>
             <Nav.Link href="#link">Visites</Nav.Link>
             <Nav.Link href="#link">Restaurants</Nav.Link>
+            <Nav.Link href="/image">Images</Nav.Link>
             <Nav.Link href="#link">Night life</Nav.Link>
           </Nav>
           <Nav className="mr-auto covid-button">
