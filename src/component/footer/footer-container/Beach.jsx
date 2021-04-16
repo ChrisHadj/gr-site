@@ -46,4 +46,5 @@ export default Beach;
 
 export const Lindos = styled.div`
   position: absolute;
+  z-index: 999;
 `;
