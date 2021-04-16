@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,17 +9,29 @@ import imageLindos from "../../../images/footer/lindos.jpg";
 import imageTsambika from "../../../images/footer/tsambika.jpg";
 import imageNight from "../../../images/footer/nightlife.jpg";
 import imagePrasonisi from "../../../images/footer/prasonisi.jpg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Beach = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
+
   return (
     <Container className="container-grid">
-    <PageTitleContainer>
-      <PageTitle>Lieux incontournable de Rhodes</PageTitle>
-    </PageTitleContainer>
+      <PageTitleContainer>
+        <PageTitle data-aos="fade-down">
+          Lieux incontournable de Rhodes
+        </PageTitle>
+      </PageTitleContainer>
       <Row>
-        <Col className="horizontal gallery-item col">
+        <Col data-aos="fade-up" className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
-            <Title className="title">Lindos</Title>
+            <Title className="title">
+              <a href="/">Lindos</a>
+            </Title>
           </ContainerTitle>
           <img
             className="lindos-horizontal"
@@ -27,9 +39,9 @@ const Beach = () => {
             alt="lindos-castle"
           />
         </Col>
-        <Col className="horizontal gallery-item col">
+        <Col data-aos="fade-up" className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
-            <Title className="title">Tsambika</Title>
+            <Title className="title"><a href="/">Tsambika</a></Title>
           </ContainerTitle>
           <img
             className="tsambika-horizontal"
@@ -37,23 +49,26 @@ const Beach = () => {
             alt="tsambika church"
           />
         </Col>
-        <Col className="verticale rhodes-img gallery-item col">
+        <Col
+          data-aos="fade-up"
+          className="verticale rhodes-img gallery-item col"
+        >
           <ContainerTitle className="container-title">
-            <Title className="title">Rhodes</Title>
+            <Title className="title"><a href="/">Rhodes</a></Title>
           </ContainerTitle>
           <img src={imageRhodes} alt="rhodes-town" />
         </Col>
       </Row>
       <Row>
-        <Col className="horizontal gallery-item col">
+        <Col data-aos="fade-up" className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
-            <Title className="title">Faliraki</Title>
+            <Title className="title"><a href="/">Faliraki</a></Title>
           </ContainerTitle>
           <img src={imageNight} alt="nightlife" />
         </Col>
-        <Col className="horizontal gallery-item col">
+        <Col data-aos="fade-up" className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
-            <Title className="title">Prasonisi</Title>
+            <Title className="title"><a href="/">Prasonisi</a></Title>
           </ContainerTitle>
           <img src={imagePrasonisi} alt="prasonisi" />
         </Col>
@@ -78,6 +93,10 @@ export const ContainerTitle = styled.div`
   background-color: white;
   opacity: 0.7;
 
+  @media (max-width: 575px) {
+    height: 45px;
+  }
+
   &:hover {
     opacity: 0.9;
   }
@@ -89,6 +108,10 @@ export const Title = styled.h1`
   font-size: 22px;
   color: #4a4a4a;
   margin-block-start: 0;
+
+  @media (max-width: 575px) {
+    font-size: 19px;
+  }
 `;
 
 export const PageTitleContainer = styled.div`
@@ -101,4 +124,8 @@ export const PageTitle = styled.h2`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 575px) {
+    font-size: 22px;
+  }
 `;

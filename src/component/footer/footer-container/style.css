@@ -15,6 +15,19 @@ img {
     height: auto;
 }
 
+a {
+    color: #4a4a4a;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
 .gallery-item {
     height: 340px;
     margin: 0.1rem;
@@ -56,3 +69,5 @@ img {
         margin-top: 0.7rem;
     }
 }
+
+
