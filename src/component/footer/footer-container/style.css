@@ -20,6 +20,9 @@ img {
     margin: 0.1rem;
     margin-top: 0.7rem;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery-item img {
@@ -27,6 +30,9 @@ img {
     height: 100%;
     object-fit: cover;
     transition: transform 2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .gallery-item:hover img {
