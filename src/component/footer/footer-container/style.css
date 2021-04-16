@@ -35,9 +35,8 @@ img {
 }
 
 @media (max-width: 640px) {
-    .gallery {
-        display: grid;
-        height: 240px;
+    .gallery-item {
+        height: 140px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 300px);
         grid-auto-flow: row dense;
