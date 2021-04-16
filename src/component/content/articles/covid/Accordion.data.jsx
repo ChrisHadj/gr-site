@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "./covid.style.css";
 
 export const Data = [
@@ -8,7 +8,7 @@ export const Data = [
       <div>
         <p>
           Le voyageur est prié de remplir le formulaire en ligne (PLF) sur
-          <a href="http://travel.gov.gr" target="_blank">
+          <a href="http://travel.gov.gr" target="_blank" rel="noreferrer">
             {" "}
             http://travel.gov.gr
           </a>{" "}
@@ -71,7 +71,7 @@ export const Data = [
             (sous conditions strictes, notamment, un test réalisé dans les 72
             heures avant le passage à la frontière) via les postes frontières
             énumérés sur le site officiel grec du PLF (
-            <a href="https://travel.gov.gr/#/" target="_blank">
+            <a href="https://travel.gov.gr/#/" target="_blank" rel="noreferrer">
               https://travel.gov.gr/#/
             </a>
             ).
@@ -109,7 +109,7 @@ export const Data = [
         <p>
           En ce qui concerne les petits déplacements quotidiens ET essentiels,
           voir la page officielle: (
-          <a href="https://forma.gov.gr/en/" target="_blank">
+          <a href="https://forma.gov.gr/en/" target="_blank" rel="noreferrer">
             https://forma.gov.gr/en/
           </a>
           ).
@@ -125,7 +125,7 @@ export const Data = [
           Pour la sortie du territoire grec, les ressortissants grecs ainsi que
           les résidents permanents doivent remplir un formulaire PLF qui se
           trouve sur le site{" "}
-          <a href="http://travel.gov.gr" target="_blank">
+          <a href="http://travel.gov.gr" target="_blank" rel="noreferrer">
             http://travel.gov.gr
           </a>
           .
@@ -140,7 +140,7 @@ export const Data = [
         <p>
           En Belgique, le SPF Santé publique a mis en ligne un site consacré au
           Coronavirus et aux conditions de voyage:
-          <a href="www.info-coronavirus.be/fr" target="_blank">
+          <a href="www.info-coronavirus.be/fr" target="_blank" rel="noreferrer">
             {" "}
             www.info-coronavirus.be/fr
           </a>
@@ -171,7 +171,7 @@ export const Data = [
           des informations officielles concernant les conditions d‘accès au
           territoire grec. Les renseignements repris ici sont donnés à titre
           purement informatif. Vous pouvez aussi consulter le site
-          <a href="http://travel.gov.gr" target="_blank">
+          <a href="http://travel.gov.gr" target="_blank" rel="noreferrer">
             {" "}
             http://travel.gov.gr
           </a>
@@ -189,7 +189,7 @@ export const Data = [
         <p>
           Les personnes qui rencontreraient des problèmes techniques lors de
           l’enregistrement en ligne sur le site{" "}
-          <a href="http://travel.gov.gr" target="_blank">
+          <a href="http://travel.gov.gr" target="_blank" rel="noreferrer">
             http://travel.gov.gr
           </a>{" "}
           (pas de QR code reçu, …) ou qui auraient des questions sur la façon de
@@ -226,7 +226,7 @@ export const DataTitle = [
         <li>
           Actuellement, vous ne pouvez vous rendre à l'étranger que pour une
           raison essentielle. Plus d'informations sur les voyages essentiels sur
-          <a href="http://www.info-coronavirus.be/fr/voyages" target="_blank">
+          <a href="http://www.info-coronavirus.be/fr/voyages" target="_blank" rel="noreferrer">
             {" "}
             http://www.info-coronavirus.be/fr/voyages
           </a>
@@ -262,7 +262,7 @@ export const DataTitle = [
           Un couvre-feu a également été instauré dans tout le pays (21h00-5h00).
           En Attique, le couvre-feu a été allongé le week-end (18h00-5h00). Les
           mesures spécifiques varient en fonction de la{" "}
-          <a href="https://covid19.gov.gr/covid-map" target="_blank">
+          <a href="https://covid19.gov.gr/covid-map" target="_blank" rel="noreferrer">
             classification épidémiologique
           </a>{" "}
           régionale.
@@ -270,7 +270,7 @@ export const DataTitle = [
         <p>
           Tout le pays est officiellement en confinement. Les déplacements au
           sein des provinces doivent répondre à une des{" "}
-          <a href="https://forma.gov.gr/en/" target="_blank">
+          <a href="https://forma.gov.gr/en/" target="_blank" rel="noreferrer">
             6 raisons impératives
           </a>{" "}
           définies par les autorités helléniques.

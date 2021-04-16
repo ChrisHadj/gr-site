@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { DataTitle } from "./Accordion.data";
 import styled from "styled-components/macro";
 import AOS from "aos";
@@ -12,6 +12,7 @@ const TitleInfo = styled.div``;
 const TitleInfoOne = styled.div``;
 
 const Accordion = () => {
+
   useEffect
     (() => {
       AOS.init({
@@ -20,16 +21,7 @@ const Accordion = () => {
     },
     []);
 
-  const [clicked, setClicked] = useState(false);
 
-  const toggle = (index) => {
-    if (clicked === index) {
-      //if clicked question is already active, then close it
-      return setClicked(null);
-    }
-
-    setClicked(index);
-  };
   return (
     <AccordionSection>
       {DataTitle.map((item, index) => {
