@@ -6,3 +6,21 @@
     margin-top: 25px;
     margin-left: 55px;
 }
+
+.text-btn {
+    color: red;
+}
+
+.text-btn:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.card-header {
+    justify-content: center;
+    display: flex;
+}
+
+.card {
+    margin-top: 5rem;
+}

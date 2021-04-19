@@ -3,7 +3,9 @@ import Layout from '../Layout'
 
 const NightLife = () => {
     return(
-        <Layout>hello from light life baby</Layout>
+        <Layout>
+            
+        </Layout>
     )
 }
 

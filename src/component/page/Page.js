@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "../header/Carousel.component";
-import Content from "../content/Content.component";
 import Layout from "../Layout";
-import Footer from '../footer/Footer.component'
+import Footer from "../footer/Footer.component";
+import CovidAccordion from "../content/Covid.accordion";
 
 class Pages extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Pages extends React.Component {
           <div>
             <Footer />
           </div>
-          <Content />
+          <CovidAccordion />
         </div>
       </Layout>
     );

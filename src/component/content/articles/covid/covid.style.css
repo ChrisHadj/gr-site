@@ -43,3 +43,7 @@ h4 {
 .list-number {
     list-style-type:decimal;
 }
+
+.hyperlink-data {
+    color: #007bff;
+}
