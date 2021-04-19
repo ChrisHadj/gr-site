@@ -16,6 +16,8 @@ const Navbarv = () => {
     }
   };
 
+  const isBrowser = typeof window !== "undefined"
+
   window.addEventListener("scroll", changeBackground);
   return (
     <Navbar
