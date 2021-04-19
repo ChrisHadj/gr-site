@@ -16,7 +16,7 @@ const Navbarv = () => {
     }
   };
 
-  const isBrowser = typeof window !== "undefined"
+  let windowsize = { innerWidth: '900' }
 
   window.addEventListener("scroll", changeBackground);
   return (
