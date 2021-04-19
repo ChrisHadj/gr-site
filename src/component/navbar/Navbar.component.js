@@ -16,8 +16,6 @@ const Navbarv = () => {
     }
   };
 
-  const module = typeof window !== `undefined` ? require("module") : null
-
   window.addEventListener("scroll", changeBackground);
   return (
     <Navbar
