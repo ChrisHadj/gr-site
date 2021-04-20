@@ -16,7 +16,11 @@ const Navbarv = () => {
     }
   };
 
-  window.addEventListener("scroll", changeBackground);
+  if (typeof window !== `undefined`) {
+    window.addEventListener("scroll", changeBackground);
+  }
+  
+
   return (
     <Navbar
       className={navbar ? "navbar active" : "navbar"}
