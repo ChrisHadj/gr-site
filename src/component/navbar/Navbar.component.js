@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
-import { Nav } from "react-bootstrap";
+import { Nav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
 import Logo from "../../images/Navbar/flag.png";
@@ -19,7 +19,6 @@ const Navbarv = () => {
   if (typeof window !== `undefined`) {
     window.addEventListener("scroll", changeBackground);
   }
-  
 
   return (
     <Navbar
@@ -34,7 +33,13 @@ const Navbarv = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-item mr-auto">
-          <Nav.Link href="/visites">Visites</Nav.Link>
+          <NavDropdown title="Visite" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/lindos">Lindos</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">
+              Another action
+            </NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+          </NavDropdown>
           <Nav.Link href="/restaurants">Restaurants</Nav.Link>
           <Nav.Link href="/image">Images</Nav.Link>
           <Nav.Link href="/night-life">Night life</Nav.Link>

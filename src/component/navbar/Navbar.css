@@ -1,5 +1,5 @@
 .navbar {
-    position: fixed;
+    position: sticky;
     background: rgba(199, 199, 199, 0.301)!important;
     width: 100%;
     z-index: 10;
@@ -32,4 +32,12 @@
     .covid-button {
         display: none!important;
     }
+}
+
+.dropdown-toggle::after {
+    margin-top: 10px;
+}
+
+.dropdown-menu{
+    background: #d4eeffb6;
 }

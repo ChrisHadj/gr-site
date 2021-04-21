@@ -1,10 +1,10 @@
 import React from "react";
-import VisitePage from "../component/page/Visite-page";
+//import VisitePage from "../component/page/Visite-page";
 
 const Visite = () => {
   return (
     <div>
-      <VisitePage />
+      
     </div>
   );
 };

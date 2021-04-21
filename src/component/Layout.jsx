@@ -21,4 +21,5 @@ export const Footer = styled.footer`
   justify-content: center;
   margin-top: 15px;
   margin-bottom: 5px;
+  position: relative;
 `;

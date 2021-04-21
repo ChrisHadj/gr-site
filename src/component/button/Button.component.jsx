@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import DropdownButton from "react-bootstrap/DropdownButton";
+
+import Dropdown from 'react-bootstrap/Dropdown'
 import "./Button.css";
 
 const ButtonDanger = () => {
@@ -11,7 +11,7 @@ const ButtonDanger = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">lindos</Dropdown.Item>
+        <Dropdown.Link href="/lindos">lindos</Dropdown.Link>
         <Dropdown.Item href="#/action-2">faliraki</Dropdown.Item>
         <Dropdown.Item href="#/action-3">rhodes</Dropdown.Item>
         <Dropdown.Item href="#/action-3">tsambika</Dropdown.Item>
