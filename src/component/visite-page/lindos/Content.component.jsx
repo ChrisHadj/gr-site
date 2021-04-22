@@ -55,6 +55,15 @@ const Content = () => {
                     <img className="image" src={FrontBeach} alt="lindos" />
                   </Col>
                 </Row>
+                <Row>
+                  <Col>
+                    <script
+                      data-ad-client="ca-pub-1208243264061405"
+                      async
+                      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                    ></script>
+                  </Col>
+                </Row>
               </Container>
             </div>
           </>
