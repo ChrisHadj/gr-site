@@ -8,7 +8,7 @@ class Pages extends React.Component {
   render() {
     return (
       <Layout>
-        <div style={{ overflow: "hidden" }}>
+        <div>
           <Carousel />
           <div>
             <Footer />

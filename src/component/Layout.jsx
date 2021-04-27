@@ -16,7 +16,7 @@ export default function Layout({ children }) {
 
 
 export const Footer = styled.footer`
-  color: red;
+  color: #000000;
   display: flex;
   justify-content: center;
   margin-top: 15px;

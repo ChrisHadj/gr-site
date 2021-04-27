@@ -9,8 +9,13 @@ import './Content.css';
 
 const CovidAccordion = () => {
 
+  const myStyle = {
+    display: "flex",
+    justifyContent: "center"
+  };
+
   return (
-    <Accordion defaultActiveKey="1">
+    <Accordion style={myStyle} defaultActiveKey="1">
       <Card>
         <Card.Header>
           <Accordion.Toggle className="text-btn" as={Button} variant="link" eventKey="0">
