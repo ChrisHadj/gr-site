@@ -1,0 +1,11 @@
+export const DataFalirakiContent = [
+    {
+        titleAnthonyContainer: "Baie d'Anthony Quinn",
+        subTitleAnthony: "L'une des plages les plus célèbres et les plus peuplées de Rhodes",
+        textOneAnthony: "Une chose est certaine: ceux qui l’ont visité l’oublient à peine. Nous parlons ici de la Baie d’Anthony Quinn (connue par les locaux sous le nom de Baie de Vagies), l’une des plages les plus célèbres et les plus peuplées de l’île de Rhodes. La baie est située à environ 17 kilomètres de la ville, le long de la côte est de l’île, à seulement 4 kilomètres au sud de Faliraki.",
+        textTwoAnthony: "La baie est située dans le village de Ladiko. C’est une petite mais charmante crique de sable et de gravier, longue et étroite, caractérisée par un littoral irrégulier et déchiqueté, avec des collines couvertes d’arbres et faisant face au rivage et les rochers qui entrent dans la mer. Une mer qui se présente naturellement entre le bleu et le vert émeraude, limpide et invitante. Transparente au point où l’on peut clairement voir le fond marin, qui est principalement constitué de sable et de roches, bas au bon endroit, idéal pour nager et faire la salle de bain. Mais surtout, grâce à l’eau cristalline, parfaite même pour la plongée et la plongée en apnée, compte tenu de la richesse extraordinaire des fonds marins.",
+        textThreeAnthony: "La plage, accessible en descendant une échelle, est bien équipée avec des chaises longues, des parasols et un petit kiosque qui « approvisionne » les nageurs en en-cas et en rafraîchissements. Si vous avez faim, à quelques pas, vous trouverez une taverne où vous pourrez déguster les nombreuses spécialités de la région et à quelques centaines de mètres du village de Ladiko.",
+        textFourAnthony: "Enfin, nous ne pouvons pas manquer de révéler pourquoi la plage est connue dans le monde entier sous le nom de Baie d’Anthony Quinn: ici même, dans ce coin de paradis, le célèbre acteur américain est venu tourner quelques scènes de ses films et est tombé amoureux tellement de cette petite crique pour décider d’acheter un petit terrain. Depuis lors, cette plage est devenue la baie d’Anhony Quinn pour tout le monde.",
+
+    },
+]
