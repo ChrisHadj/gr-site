@@ -5,7 +5,6 @@ const HeaderFaliraki = () => {
   return (
     <div className="faliraki-header">
       <h2 className="hero-title">Baie Anthony quinn</h2>
-      <h2 className="hero-title">Kalithea</h2>
     </div>
   );
 };

@@ -15,19 +15,19 @@ import "aos/dist/aos.css";
 const Beach = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500,
+      duration: 1000,
     });
   }, []);
 
   return (
     <Container className="container-grid">
       <PageTitleContainer>
-        <PageTitle data-aos="fade-down">
+        <PageTitle className="title-lieux" data-aos="fade-down">
           Lieux incontournable de Rhodes
         </PageTitle>
       </PageTitleContainer>
       <Row>
-        <Col data-aos="fade-up" className="horizontal gallery-item col">
+        <Col data-aos="fade-up"  className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
             <Title className="title">
               <a href="/lindos">Lindos</a>

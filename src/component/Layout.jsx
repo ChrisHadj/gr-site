@@ -19,7 +19,8 @@ export const Footer = styled.footer`
   color: #000000;
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
+  background-color: #ececec;
 `;
