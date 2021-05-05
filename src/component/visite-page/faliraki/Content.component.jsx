@@ -107,7 +107,7 @@ const Content = () => {
                       />
                     </Col>
                   </Row>
-                  <div className="image-end"><img className="image-end-shadow" src={KalitheaBeach} /></div>
+                  <div className="image-end"><img className="image-end-shadow" src={KalitheaBeach} alt="kalithea" /></div>
                 </Container>
               </div>
             </>

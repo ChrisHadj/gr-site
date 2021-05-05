@@ -1,0 +1,157 @@
+.rhodes-header {
+  background: linear-gradient(
+      90deg,
+      rgba(180, 168, 255, 0.3) 0%,
+      rgba(57, 147, 247, 0.3) 50%,
+      rgba(0, 212, 255, 0.3) 100%
+    ),
+    url(../../../images/Rhodes/88.jpg) center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 100% rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  margin-top: -80px;
+}
+
+.two-text-rhodes {
+  padding-bottom: 10px;
+}
+
+.text-rhodes-space div {
+  padding-bottom: 10px;
+}
+
+.text-old-town-space div {
+  padding-bottom: 10px;
+}
+
+.list-text-rhodes-town li {
+  padding-bottom: 10px;
+}
+
+.title-list-rhodes {
+  padding-bottom: 10px;
+}
+
+.last-container-rhodes {
+  padding-bottom: 30px;
+}
+
+.last-container-rhodes img {
+  margin-bottom: 15px;
+  box-shadow: 10px 10px 19px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 19px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px 3px rgba(0, 0, 0, 0.75);
+}
+
+.image-rhodes-night {
+  display: flex;
+  justify-content: center;
+  min-height: 0;
+  min-width: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: rgba(0, 0, 0, 0.27);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.27) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.27) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.27) 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+}
+
+.separation-div {
+  height: 2px;
+  color: black;
+  width: 75%;
+  border: 1px;
+  background: black;
+}
+
+.hero-title-colosse {
+  font-size: 90px;
+  color: rgb(255, 255, 255);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.colosse-container {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      90deg,
+      rgba(180, 168, 255, 0.3) 0%,
+      rgba(57, 147, 247, 0.3) 50%,
+      rgba(0, 212, 255, 0.3) 100%
+    ),
+    url(../../../images/Rhodes/entree-port-mandraki-rhodes.jpg) center
+      center/cover no-repeat;
+}
+
+.title-colosse {
+  font-size: 20px;
+}
+
+.first-text-rhodes-last {
+  padding-bottom: 25px;
+}
+
+.colosse-container-title {
+  display: flex;
+  justify-content: center;
+}
+
+.oldtown-container {
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 207, 207, 0.3) 0%,
+      rgba(255, 188, 149, 0.3) 50%,
+      rgba(253, 255, 148, 0.3) 100%
+    ),
+    url(../../../images/Rhodes/old-town-rhodes.jpg) center center/cover
+      no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+  .colosse-container {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .hero-title-colosse {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .hero-title-colosse {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title-colosse {
+    font-size: 70px;
+  }
+}

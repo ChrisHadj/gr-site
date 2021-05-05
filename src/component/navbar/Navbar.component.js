@@ -35,10 +35,10 @@ const Navbarv = () => {
         <Nav className="navbar-item mr-auto">
           <NavDropdown title="Visite" id="basic-nav-dropdown">
             <NavDropdown.Item href="/lindos">Lindos</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">Tsambika</NavDropdown.Item>
+            <NavDropdown.Item href="/rhodes">Rhodes</NavDropdown.Item>
+            <NavDropdown.Item href="/faliraki">Faliraki</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Prasonisi</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/restaurants">Restaurants</Nav.Link>
           <Nav.Link href="/image">Images</Nav.Link>
