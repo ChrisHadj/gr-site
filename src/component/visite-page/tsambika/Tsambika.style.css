@@ -1,0 +1,19 @@
+.tsambika-header {
+  background: linear-gradient(
+      90deg,
+      rgba(180, 168, 255, 0.15) 0%,
+      rgba(57, 147, 247, 0.15) 50%,
+      rgba(0, 212, 255, 0.15) 100%
+    ),
+    url(../../../images/tsambika/Panagia_Tsambika.jpg) center center/cover
+      no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 100% rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  margin-top: -80px;
+}

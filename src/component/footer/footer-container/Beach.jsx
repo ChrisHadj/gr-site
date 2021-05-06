@@ -41,7 +41,7 @@ const Beach = () => {
         </Col>
         <Col data-aos="fade-up" className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
-            <Title className="title"><a href="/">Tsambika</a></Title>
+            <Title className="title"><a href="/tsambika">Tsambika</a></Title>
           </ContainerTitle>
           <img
             className="tsambika-horizontal"
@@ -54,7 +54,7 @@ const Beach = () => {
           className="verticale rhodes-img gallery-item col"
         >
           <ContainerTitle className="container-title">
-            <Title className="title"><a href="/">Rhodes</a></Title>
+            <Title className="title"><a href="/rhodes">Rhodes</a></Title>
           </ContainerTitle>
           <img src={imageRhodes} alt="rhodes-town" />
         </Col>

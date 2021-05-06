@@ -100,7 +100,7 @@ const Content = () => {
             <>
               <Container>
                 <div className="oldtown-container">
-                  <h2 className="hero-title-colosse">Vieille ville Rhodes</h2>
+                  <h2 className="title-old-town">Vieille ville</h2>
                 </div>
               </Container>
               <Container>

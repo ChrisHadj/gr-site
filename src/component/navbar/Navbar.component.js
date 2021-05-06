@@ -35,14 +35,14 @@ const Navbarv = () => {
         <Nav className="navbar-item mr-auto">
           <NavDropdown title="Visite" id="basic-nav-dropdown">
             <NavDropdown.Item href="/lindos">Lindos</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Tsambika</NavDropdown.Item>
+            <NavDropdown.Item href="/tsambika">Tsambika</NavDropdown.Item>
             <NavDropdown.Item href="/rhodes">Rhodes</NavDropdown.Item>
             <NavDropdown.Item href="/faliraki">Faliraki</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Prasonisi</NavDropdown.Item>
+            <NavDropdown.Item href="/prasonisi">Prasonisi</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/restaurants">Restaurants</Nav.Link>
-          <Nav.Link href="/image">Images</Nav.Link>
-          <Nav.Link href="/night-life">Night life</Nav.Link>
+          {/*<Nav.Link href="/image">Images</Nav.Link>*/}
+          {/*<Nav.Link href="/night-life">Night life</Nav.Link>*/}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
