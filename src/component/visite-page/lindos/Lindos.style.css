@@ -45,6 +45,7 @@
   padding-left: calc((100% - 1000px) / 2);
   padding-right: calc((100% - 1000px) / 2);
   margin-top: 50px;
+  
 }
 
 .info-text {
@@ -111,6 +112,7 @@
     font-size: 70px;
   }
 }
+
 @media screen and (max-width: 575px) {
   .hero-title {
     font-size: 60px;

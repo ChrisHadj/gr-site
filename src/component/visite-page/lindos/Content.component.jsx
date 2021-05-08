@@ -26,7 +26,7 @@ const Content = () => {
       {DataContent.map((item) => {
         return (
           <>
-            <div data-aos="fade-up" className="title-container">
+            <div className="title-container">
               <Container>
                 <Row>
                   <Col>
