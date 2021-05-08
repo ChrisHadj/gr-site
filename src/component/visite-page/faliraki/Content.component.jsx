@@ -16,7 +16,7 @@ import KalitheaNight from "../../../images/Faliraki/kallithea-springs-near-dawn-
 const Content = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800,
+      duration: 1000,
     });
   }, []);
 
@@ -33,6 +33,7 @@ const Content = () => {
                       <h5 className="sub-title-guide-anthony">
                         {item.subTitleAnthony}
                       </h5>
+                      <hr data-aos="fade-up" className="separation-div" />
                     </Col>
                   </Row>
                   <Row>
@@ -76,6 +77,7 @@ const Content = () => {
                   <h5 data-aos="fade-up" className="sub-title-guide-anthony">
                     {item.subTitleKalithea}
                   </h5>
+                  <hr data-aos="fade-up" className="separation-div" />
                   <Row>
                     <Col data-aos="fade-up" className="text-kalithea">
                       <div className="text-one-anthony">
@@ -94,7 +96,7 @@ const Content = () => {
                         {item.textFiveKalithea}
                       </div>
                     </Col>
-                    <Col data-aos="fade-up">
+                    <Col className="img-faliraki" data-aos="fade-up">
                       <img
                         className="image-ruin"
                         src={KalitheaNight}

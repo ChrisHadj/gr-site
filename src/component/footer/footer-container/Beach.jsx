@@ -68,7 +68,7 @@ const Beach = () => {
         </Col>
         <Col data-aos="fade-up" className="horizontal gallery-item col">
           <ContainerTitle className="container-title">
-            <Title className="title"><a href="/">Prasonisi</a></Title>
+            <Title className="title"><a href="/prasonisi">Prasonisi</a></Title>
           </ContainerTitle>
           <img src={imagePrasonisi} alt="prasonisi" />
         </Col>
