@@ -10,6 +10,7 @@ class Carouselv extends React.Component {
   render() {
     return (
       <Carousel className="carousel-container" fade>
+      
         <Carousel.Item  className="erer">
           <img
             className=".d-none .d-md-block .d-lg-none img-fluid w-100"

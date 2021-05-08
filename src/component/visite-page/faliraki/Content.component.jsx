@@ -66,18 +66,18 @@ const Content = () => {
         {DataFalirakiContentKalithea.map((item) => {
           return (
             <>
-              <div className="title-container-kalithea">
+              <div data-aos="fade-up" className="title-container-kalithea">
                 <div className="kalithea-image">
                   <h3 className="kalithea-image-title">
                     {item.titleImageContainer}
                   </h3>
                 </div>
                 <Container>
-                  <h5 className="sub-title-guide-anthony">
+                  <h5 data-aos="fade-up" className="sub-title-guide-anthony">
                     {item.subTitleKalithea}
                   </h5>
                   <Row>
-                    <Col className="text-kalithea">
+                    <Col data-aos="fade-up" className="text-kalithea">
                       <div className="text-one-anthony">
                         {item.textOneKalithea}
                       </div>
@@ -94,7 +94,7 @@ const Content = () => {
                         {item.textFiveKalithea}
                       </div>
                     </Col>
-                    <Col>
+                    <Col data-aos="fade-up">
                       <img
                         className="image-ruin"
                         src={KalitheaNight}
@@ -107,7 +107,7 @@ const Content = () => {
                       />
                     </Col>
                   </Row>
-                  <div className="image-end"><img className="image-end-shadow" src={KalitheaBeach} alt="kalithea" /></div>
+                  <div data-aos="fade-up" className="image-end"><img className="image-end-shadow" src={KalitheaBeach} alt="kalithea" /></div>
                 </Container>
               </div>
             </>

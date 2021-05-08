@@ -98,12 +98,47 @@
   padding-bottom: 15px;
 }
 
-.img-tsambika-beach img:first-child {
-  margin-bottom: 55px;
+.img-tsambika-beach img {
+  margin-bottom: 45px;
 }
 
 .img-tsambika-beach img {
   box-shadow: 10px 10px 22px 2px rgba(0,0,0,0.71);
   -webkit-box-shadow: 10px 10px 22px 2px rgba(0,0,0,0.71);
   -moz-box-shadow: 10px 10px 22px 2px rgba(0,0,0,0.71);
+}
+
+
+@media screen and (max-width: 800px) {
+  .tsambika-beach-container {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .tsambika-beach-title,
+  .title-old-town {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .tsambika-beach-title,
+  .title-old-town {
+    font-size: 40px!important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tsambika-beach-title,
+  .title-old-town {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .tsambika-beach-title,
+  .title-old-town {
+    font-size: 40px;
+  }
 }

@@ -15,7 +15,7 @@ const Content = () => {
   useEffect
   (() => {
     AOS.init({
-      duration: 800,
+      duration: 1000,
     });
   },
   []);
@@ -30,17 +30,17 @@ const Content = () => {
               <Container>
                 <Row>
                   <Col>
-                    <h1 className="title-guide">{item.guideTitle}</h1>
-                    <h5 className="sub-title-guide">{item.textTitle}</h5>
+                    <h1 data-aos="fade-up" className="title-guide">{item.guideTitle}</h1>
+                    <h5 data-aos="fade-up" className="sub-title-guide">{item.textTitle}</h5>
                   </Col>
                 </Row>
                 <Row>
                   <Col>
-                    <h3>{item.titleLindos}</h3>
-                    <div>{item.histoireLindos}</div>
+                    <h3 data-aos="fade-up">{item.titleLindos}</h3>
+                    <div data-aos="fade-up">{item.histoireLindos}</div>
                   </Col>
                   <Col>
-                    <img className="image-ruin" src={RuinImg} alt="lindos" />
+                    <img data-aos="fade-up" className="image-ruin" src={RuinImg} alt="lindos" />
                   </Col>
                 </Row>
               </Container>

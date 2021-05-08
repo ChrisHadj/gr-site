@@ -30,25 +30,25 @@ const Content = () => {
             <div className="title-container">
               <Container>
                 <Row>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <h1 className="title-guide">{item.titleRhodes}</h1>
                     <h5 className="sub-title-guide">{item.subTitleRhodes}</h5>
                   </Col>
                 </Row>
                 <Row>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <div className="first-text-rhodes">{item.historyOne}</div>
                     <div className="two-text-rhodes">{item.historyTwo}</div>
                     <div>{item.historyThree}</div>
                   </Col>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <img src={RhodesCastle} alt="Rhodes castle" />
                   </Col>
                 </Row>
               </Container>
             </div>
             <div className="image-rhodes-night">
-              <img src={RhodesCastleByNight} alt="Rhodes castle by night" />
+              <img data-aos="fade-up" src={RhodesCastleByNight} alt="Rhodes castle by night" />
             </div>
             <hr className="separation-div" />
           </>
@@ -59,29 +59,29 @@ const Content = () => {
           return (
             <>
               <Container>
-                <div className="colosse-container">
+                <div data-aos="fade-up" className="colosse-container">
                   <h2 className="hero-title-colosse">Colosse de Rhodes</h2>
                 </div>
               </Container>
               <Container>
                 <Row>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <h1 className="title-colosse">{item.titleColosse}</h1>
                     <hr className="separation-div" />
                   </Col>
                 </Row>
                 <Row>
                   <Col className="text-rhodes-space">
-                    <div>{item.textOneColosse}</div>
-                    <div>{item.textTwoColosse}</div>
-                    <div>{item.textThreeColosse}</div>
-                    <div>{item.textFourColosse}</div>
-                    <div className="first-text-rhodes-last">
+                    <div data-aos="fade-up">{item.textOneColosse}</div>
+                    <div data-aos="fade-up">{item.textTwoColosse}</div>
+                    <div data-aos="fade-up">{item.textThreeColosse}</div>
+                    <div data-aos="fade-up">{item.textFourColosse}</div>
+                    <div data-aos="fade-up" className="first-text-rhodes-last">
                       {item.textFiveColosse}
                     </div>
                   </Col>
                   <Col>
-                    <img
+                    <img data-aos="fade-up"
                       className="image-colosse"
                       src={RhodesColosse}
                       alt="colosse rhodes"
@@ -98,14 +98,14 @@ const Content = () => {
         {DataContentOldTown.map((item) => {
           return (
             <>
-              <Container>
+              <Container data-aos="fade-up">
                 <div className="oldtown-container">
                   <h2 className="title-old-town">Vieille ville</h2>
                 </div>
               </Container>
               <Container>
                 <Row>
-                  <Col className="colosse-container-title">
+                  <Col data-aos="fade-up" className="colosse-container-title">
                     <h1 className="title-colosse">
                       {item.titleOldTown}
                       <hr className="separation-div" />
@@ -116,22 +116,22 @@ const Content = () => {
               <Container>
                 <Row>
                   <Col className="text-old-town-space">
-                    <div>{item.textOneTown}</div>
-                    <div>{item.textTwoTown}</div>
-                    <div>{item.textThreeTown}</div>
-                    <div>{item.textThreeTown}</div>
-                    <div>{item.textThreeTown}</div>
+                    <div data-aos="fade-up">{item.textOneTown}</div>
+                    <div data-aos="fade-up">{item.textTwoTown}</div>
+                    <div data-aos="fade-up">{item.textThreeTown}</div>
+                    <div data-aos="fade-up">{item.textThreeTown}</div>
+                    <div data-aos="fade-up">{item.textThreeTown}</div>
                   </Col>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <div className="title-list-rhodes">{item.titleAVoir}</div>
                     <div className="list-text-rhodes-town">{item.AVoir}</div>
                   </Col>
                 </Row>
                 <Row className="last-container-rhodes">
-                  <Col>
+                  <Col data-aos="fade-up">
                     <img src={RhodesOldTownOne} alt="rhodes old town" />
                   </Col>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <img src={RhodesOldTownTwo} alt="rhodes old town" />
                   </Col>
                 </Row>

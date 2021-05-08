@@ -1,0 +1,12 @@
+export const ContentDataPrasonisi = [
+    {
+        titlePrasonisi: "À l'extrémité sud de Rhodes se trouve une superbe plage partagée entre deux mers. Cette destination est très appréciée des adeptes de surf et de planche à voile.",
+        textOnePrasonisi: "Prasonisi est une péninsule de l'extrémité sud de Rhodes réputée pour ses paysages somptueux et ses sports nautiques. De nombreux visiteurs s'y rendent pour pratiquer le surf et la planche à voile, car les conditions s'y prêtent tout particulièrement.",
+        textTwoPrasonisi: "La plage se compose de deux criques sableuses situées des deux côtés d'une grande bande de sable reliant un îlot. C'est ici que la mer Égée rejoint la mer Méditerranée.",
+        textThreePrasonisi: "Vous trouverez facilement un endroit où poser votre serviette de plage. Il est également possible de louer un transat et un parasol. Le côté de la plage faisant face à la mer Égée est généralement venteux, avec des vagues agitées. Les eaux de la Méditerranée sont quant à elles plus tranquilles. Ainsi, vous pourrez vous baigner dans une mer, puis traverser la bande de sable pour plonger dans l'autre.",
+        textFourPrasonisi: "Vous admirerez les amateurs de surf, de planche à voile et de kitesurf qui viennent s'entraîner ici. Si vous voulez pratiquer des activités, mais que vous n'avez pas de matériel, louez des planches, des planches à voile et les tenues adaptées dans les centres de surf de Prasonisi. Les débutants peuvent également prendre des cours auprès de moniteurs expérimentés. Juillet et août sont les meilleurs mois pour le surf, car les vents étésiens soufflent le plus fort.",
+        textFivePrasonisi: "En été, lorsque le niveau de l'eau est plus bas, vous pourrez marcher de la plage à l'îlot. En grimpant jusqu'au phare, vous profiterez de vues splendides sur la côte sud accidentée de Rhodes. Le sentier est rocailleux. Mieux vaut donc avoir de bonnes chaussures. En hiver, lorsque le niveau de l'eau monte, l'îlot devient une île. De ce fait, il est inaccessible à pied.",
+        textSixPrasonisi: "Si vous avez un petit creux, régalez-vous dans un restaurant ou une taverne près de l'entrée de la plage. Vous pouvez aussi apporter votre pique-nique.",
+        textSevenPrasonisi: "Prasonisi est à environ 2 heures de route de la ville de Rhodes. L'itinéraire, pittoresque, passe par des collines rocheuses et des champs verdoyants. Un grand parking gratuit se trouve à l'extrémité de la route qui mène jusqu'à la plage.",
+    }
+]

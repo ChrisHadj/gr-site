@@ -40,7 +40,7 @@ const Navbarv = () => {
             <NavDropdown.Item href="/faliraki">Faliraki</NavDropdown.Item>
             <NavDropdown.Item href="/prasonisi">Prasonisi</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/restaurants">Restaurants</Nav.Link>
+          {/*<Nav.Link href="/restaurants">Restaurants</Nav.Link>*/}
           {/*<Nav.Link href="/image">Images</Nav.Link>*/}
           {/*<Nav.Link href="/night-life">Night life</Nav.Link>*/}
         </Nav>

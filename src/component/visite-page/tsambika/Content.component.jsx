@@ -27,36 +27,37 @@ const Content = () => {
             <div className="title-container">
               <Container>
                 <Row>
-                  <Col>
+                  <Col data-aos="fade-up">
                     <h1 className="title-guide">{item.titleTsambika}</h1>
                   </Col>
                 </Row>
                 <Row>
                   <Col className="text-tsambika">
-                    <div>
+                    <div data-aos="fade-up">
                       {item.contantTitleTsambikaOne}
                     </div>
-                    <div>
+                    
+                    <div data-aos="fade-up">
                       {item.contantTitleTsambikaTwo}
                     </div>
-                    <div>{item.contantTitleTsambikaThree}</div>
-                    <div>{item.contantTitleTsambikaFour}</div>
-                    <hr className="separation-div" />
-                    <div>{item.contantTitleTsambikaFive}</div>
-                    <div>{item.contantTitleTsambikaSix}</div>
-                    <div>{item.contantTitleTsambikaSeven}</div>
+                    <div data-aos="fade-up">{item.contantTitleTsambikaThree}</div>
+                    <div data-aos="fade-up">{item.contantTitleTsambikaFour}</div>
+                    <hr data-aos="fade-up" className="separation-div" />
+                    <div data-aos="fade-up">{item.contantTitleTsambikaFive}</div>
+                    <div data-aos="fade-up">{item.contantTitleTsambikaSix}</div>
+                    <div data-aos="fade-up">{item.contantTitleTsambikaSeven}</div>
                   </Col>
                   <Col className="img-tsambika">
-                    <img src={TsambikaMonasteryOne} alt="tsambika rhodes" />
-                    <img src={TsambikaMonasteryTwo} alt="tsambika rhodes" />
+                    <img data-aos="fade-up"  src={TsambikaMonasteryOne} alt="tsambika rhodes" />
+                    <img data-aos="fade-up" src={TsambikaMonasteryTwo} alt="tsambika rhodes" />
                   </Col>
                 </Row>
               </Container>
             </div>
             <div className="monastery-tsambika">
-                <img className="img-tsambika-monastery" src={TsambikaMonasteryThree} alt="monastery old" />
+                <img data-aos="fade-up" className="img-tsambika-monastery" src={TsambikaMonasteryThree} alt="monastery old" />
             </div>
-            <hr className="separation-div" />
+            <hr data-aos="fade-up" className="separation-div" />
           </>
         );
       })}
@@ -64,13 +65,13 @@ const Content = () => {
         {DataContentTsambikaBeach.map((item) => {
             return (
                 <>
-                <Container>
+                <Container data-aos="fade-up">
                     <div className="tsambika-beach-container">
                         <h2 className="tsambika-beach-title">Plage de Tsambika</h2>
                     </div>
                 </Container>
                 <Container>
-                    <Row>
+                    <Row data-aos="fade-up">
                         <Col>
                             <h1 className="title-beach">{item.TitleBeach}</h1>
                             <hr className="separation-div" />
@@ -78,16 +79,16 @@ const Content = () => {
                     </Row>
                     <Row>
                         <Col className="text-tsambika-beach">
-                            <div>{item.TextOneBeach}</div>
-                            <div>{item.TextTwoBeach}</div>
-                            <div>{item.TextThreeBeach}</div>
-                            <div>{item.TextFourBeach}</div>
-                            <div>{item.TextFiveBeach}</div>
-                            <div>{item.TextSixBeach}</div>
+                            <div data-aos="fade-up">{item.TextOneBeach}</div>
+                            <div data-aos="fade-up">{item.TextTwoBeach}</div>
+                            <div data-aos="fade-up">{item.TextThreeBeach}</div>
+                            <div data-aos="fade-up">{item.TextFourBeach}</div>
+                            <div data-aos="fade-up">{item.TextFiveBeach}</div>
+                            <div data-aos="fade-up">{item.TextSixBeach}</div>
                         </Col>
                         <Col className="img-tsambika-beach">
-                            <img src={TsambikaMonasteryFour} alt="tsambika beach flag" />
-                            <img src={TsambikaMonasteryFive} alt="tsambika beach flag" />
+                            <img data-aos="fade-up" src={TsambikaMonasteryFour} alt="tsambika beach flag" />
+                            <img data-aos="fade-up" src={TsambikaMonasteryFive} alt="tsambika beach flag" />
                         </Col>
                     </Row>
                 </Container>
