@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./navbar/Navbar.component";
 import styled from "styled-components/macro";
 
+
 export default function Layout({ children }) {
   return (
     <div>

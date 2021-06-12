@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Weather from "../../weather/Weather.component";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -20,61 +21,72 @@ const Beach = () => {
   }, []);
 
   return (
-    <Container className="container-grid">
-      <PageTitleContainer>
-        <PageTitle className="title-lieux" data-aos="fade-down">
-          Lieux incontournable de Rhodes
-        </PageTitle>
-      </PageTitleContainer>
-      <Row>
-        <Col data-aos="fade-up"  className="horizontal gallery-item col">
-          <ContainerTitle className="container-title">
-            <Title className="title">
-              <a href="/lindos">Lindos</a>
-            </Title>
-          </ContainerTitle>
-          <img
-            className="lindos-horizontal"
-            src={imageLindos}
-            alt="lindos-castle"
-          />
-        </Col>
-        <Col data-aos="fade-up" className="horizontal gallery-item col">
-          <ContainerTitle className="container-title">
-            <Title className="title"><a href="/tsambika">Tsambika</a></Title>
-          </ContainerTitle>
-          <img
-            className="tsambika-horizontal"
-            src={imageTsambika}
-            alt="tsambika church"
-          />
-        </Col>
-        <Col
-          data-aos="fade-up"
-          className="verticale rhodes-img gallery-item col"
-        >
-          <ContainerTitle className="container-title">
-            <Title className="title"><a href="/rhodes">Rhodes</a></Title>
-          </ContainerTitle>
-          <img src={imageRhodes} alt="rhodes-town" />
-        </Col>
-      </Row>
-      <Row>
-        <Col data-aos="fade-up" className="horizontal gallery-item col">
-          <ContainerTitle className="container-title">
-            <Title className="title"><a href="/faliraki">Faliraki</a></Title>
-          </ContainerTitle>
-          <img src={imageNight} alt="nightlife" />
-        </Col>
-        <Col data-aos="fade-up" className="horizontal gallery-item col">
-          <ContainerTitle className="container-title">
-            <Title className="title"><a href="/prasonisi">Prasonisi</a></Title>
-          </ContainerTitle>
-          <img src={imagePrasonisi} alt="prasonisi" />
-        </Col>
-      </Row>
-      <Row></Row>
-    </Container>
+    <>
+      <Container className="container-grid">
+        <PageTitleContainer>
+          <PageTitle className="title-lieux" data-aos="fade-down">
+            Lieux incontournable de Rhodes
+          </PageTitle>
+        </PageTitleContainer>
+        <Row>
+          <Col data-aos="fade-up" className="horizontal gallery-item col">
+            <ContainerTitle className="container-title">
+              <Title className="title">
+                <a href="/lindos">Lindos</a>
+              </Title>
+            </ContainerTitle>
+            <img
+              className="lindos-horizontal"
+              src={imageLindos}
+              alt="lindos-castle"
+            />
+          </Col>
+          <Col data-aos="fade-up" className="horizontal gallery-item col">
+            <ContainerTitle className="container-title">
+              <Title className="title">
+                <a href="/tsambika">Tsambika</a>
+              </Title>
+            </ContainerTitle>
+            <img
+              className="tsambika-horizontal"
+              src={imageTsambika}
+              alt="tsambika church"
+            />
+          </Col>
+          <Col
+            data-aos="fade-up"
+            className="verticale rhodes-img gallery-item col"
+          >
+            <ContainerTitle className="container-title">
+              <Title className="title">
+                <a href="/rhodes">Rhodes</a>
+              </Title>
+            </ContainerTitle>
+            <img src={imageRhodes} alt="rhodes-town" />
+          </Col>
+        </Row>
+        <Row>
+          <Col data-aos="fade-up" className="horizontal gallery-item col">
+            <ContainerTitle className="container-title">
+              <Title className="title">
+                <a href="/faliraki">Faliraki</a>
+              </Title>
+            </ContainerTitle>
+            <img src={imageNight} alt="nightlife" />
+          </Col>
+          <Col data-aos="fade-up" className="horizontal gallery-item col">
+            <ContainerTitle className="container-title">
+              <Title className="title">
+                <a href="/prasonisi">Prasonisi</a>
+              </Title>
+            </ContainerTitle>
+            <img src={imagePrasonisi} alt="prasonisi" />
+          </Col>
+        </Row>
+        <Row></Row>
+        
+      </Container>
+    </>
   );
 };
 
